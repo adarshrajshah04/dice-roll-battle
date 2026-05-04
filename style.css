@@ -1,0 +1,178 @@
+.box1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inp1,#inp2{
+    height: 25px;
+    width: 200px;
+}
+
+#btn1p1{
+    padding: 5px 10px;
+    background: #2aadd9;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+.page2{
+    width: 100%;
+    min-height: 100vh;
+    display: none;
+}
+.head{
+    width: 100%;
+    height: 20%;
+    border: 2px solid;
+    text-align: center;
+}
+#win{
+   font-size: 40px;
+   font-weight:500;
+
+}
+.score{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+
+}
+#p1s{
+    width: 30%;
+    font-size: 35px;
+    /* border: 2px solid red; */
+    font-weight: 700;
+}
+#p2s{
+    width: 30%;
+    font-size: 35px;
+    /* border: 2px solid red;   */
+    font-weight: 700;
+
+}
+
+.main2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.left{
+    width: 45%;
+    /* border: 2px solid; */
+    text-align: center;
+    
+}
+.left #p1{
+    font-size: 50px;
+    margin: auto;
+}
+
+
+
+
+.right{
+
+    width: 45%;
+    /* border: 2px solid; */
+    text-align: center;
+}
+.right #p2{
+     font-size: 50px;
+    margin: auto;
+}
+
+
+img{
+    border: 2px solid;
+}
+
+#btn2{
+    
+    display: block;
+    margin: auto;
+    margin-top: -20px;
+    padding: 8px 30px;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+}
+
+
+
+
+
+
+/* 📱 Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+
+    .main2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    #p1, #p2 {
+        font-size: 28px;
+    }
+
+    #win {
+        font-size: 26px;
+    }
+
+    #p1s, #p2s {
+        font-size: 18px;
+        width: 45%;
+        text-align: center;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    #btn2 {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    #inp1, #inp2 {
+        width: 90%;
+    }
+}
+
+
+/* 📱 Tablet (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    #p1, #p2 {
+        font-size: 40px;
+    }
+
+    #win {
+        font-size: 32px;
+    }
+
+    img {
+        width: 130px;
+    }
+
+    #btn2 {
+        width: 60%;
+    }
+}

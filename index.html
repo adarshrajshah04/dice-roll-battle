@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box1" id="box1">
+            
+               <div class="login" id="login">
+                 <input type="text" placeholder="Enter your name" id="inp1" required name="name1"><br><br>
+                <input type="text" placeholder="Enter your name" id="inp2" required name="name2"><br><br>
+                
+                
+                 <button type="submit" id="btn1p1" onclick="fun1()">login</button>
+               </div>
+               <h1 id="h1"></h1>
+            
+        </div>
+
+       <div class="page2" id="page2">
+         <div class="head">
+            <h1 id="win"></h1>
+            <div class="score">
+                <p id="p1s"></p>
+                <p id="p2s"></p>
+            </div>
+
+        </div>
+
+        <div class="main2">
+            <div class="left">
+                <h1 id="p1"></h1>
+                <img src="1.png" alt="" id="img1">
+            </div>
+            <div class="right">
+                <h1 id="p2"></h1>
+                <img src="1.png" alt="" id="img2">
+            </div>
+            
+        </div>
+        <button onclick="roll()" id="btn2">Roll</button>
+       </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
